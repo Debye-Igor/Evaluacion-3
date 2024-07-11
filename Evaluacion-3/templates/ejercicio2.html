@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/estilos.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+<div class="container">
+    <img src="/static/img/nombre.png" alt="notas" class="img" >
+    <h1>Ejercicio 2</h1>
+    <form method="post" class="form-2">
+          <label class="label-2" for="nombre1">Nombre 1:</label>
+          <input type="text" id="nombre1" name="nombre1"  required>
+          <label class="label-2" for="nombre2">Nombre 2:</label>
+          <input type="text" id="nombre2" name="nombre2"  required>
+          <label class="label-2" for="nombre3">Nombre 3:</label>
+          <input type="text" id="nombre3" name="nombre3"  required>
+          <input type="submit" value="Enviar">
+    </form>
+    <p>{{resultado}}</p>
+    <p>{{cantidad}}</p>
+
+    <button class="btn-azul" onclick="location.href='/'" type="button">Volver</button>
+</div>
+</body>
+</html>
